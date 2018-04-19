@@ -133,66 +133,95 @@
         padding: 0;
     }
 }
-.gallery-section {
-    width: 96%;
-    margin: 0 auto;
-}
-.gallery-grid {
-    padding 0;
-    list-style: none;
-    display: block;
-    text-align: center;
-    width: 100%;
-}
-.gallery-grid:after {
-    clear: both;
-}
-.gallery-grid li {
-    width: 350px;
-    height: 350px;
-    display: inline-block;
-    margin: 20px;
-}
-.img-box {
-    width: 100%;
-    height: 100%;
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .slideshow {
     position: relative;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
     cursor: pointer;
-    border-radius: 10px;
-    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
-    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
-}
-.img-box:hover {
-    transform: scale(1.05);
-}
-.img-box-img-1 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-2 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-3 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-4 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-5 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-6 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-7 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-8 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-9 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
-.img-box-img-10 {
-    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
-}
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+
+  
+  .row:after {
+    
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+    padding: 0;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
