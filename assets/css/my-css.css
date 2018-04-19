@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+
 .container {
     position: relative;
 }
@@ -75,11 +76,123 @@
 .demo {
   opacity: 0.6;
 }
-
 .active,
 .demo:hover {
   opacity: 1;
+} 
+.card-small .size {
+   width: calc((100% - 90px) / 4);
+   display: inline-block;
+   vertical-align: top;
+   margin: 0 30px 30px 0;
+    padding: 0;
 }
-#caption {
-    margin-top: auto;
+.card-small .size:nth-child(4) {
+    margin-right: 0px;
+}
+
+@media all and (max-width: 1120px) {
+    .card-small .size {
+       width: calc((100% - 60px) / 3);
+       display: inline-block;
+       vertical-align: top;
+       margin: 0 20px 20px 0;
+        padding: 0;
+    }
+    .card-small .size:nth-child(4) {
+        margin-right: 20px;
+    }
+    .card-small .size:nth-child(3) {
+        margin-right: 0px;
+    }
+}
+@media all and (max-width: 768px) {
+    .card-small .size {
+       width: calc((100% - 20px) / 2);
+       display: inline-block;
+       vertical-align: top;
+       margin: 0 20px 20px 0;
+        padding: 0;
+    }
+    .card-small .size:nth-child(4) {
+        margin-right: 20px;
+    }
+    .card-small .size:nth-child(3) {
+        margin-right: 20px;
+    }
+    .card-small .size:nth-child(2) {
+        margin-right: 0px;
+    }
+}
+@media all and (max-width: 550px) {
+    .card-small .size {
+       width: 100%;
+       display: block;
+       vertical-align: top;
+       margin: 0 0 20px 0;
+        padding: 0;
+    }
+}
+.gallery-section {
+    width: 96%;
+    margin: 0 auto;
+}
+.gallery-grid {
+    padding 0;
+    list-style: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
+.gallery-grid:after {
+    clear: both;
+}
+.gallery-grid li {
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin: 20px;
+}
+.img-box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    -webkit-transition: 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out, -moz-transform 0.3s ease-in-out;
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.img-box:hover {
+    transform: scale(1.05);
+}
+.img-box-img-1 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-2 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-3 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-4 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-5 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-6 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-7 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-8 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-9 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
+}
+.img-box-img-10 {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.10)), url(images/clubs/shake/shake1.jpg);
 }
