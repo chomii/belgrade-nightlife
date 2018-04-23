@@ -62,3 +62,16 @@
   padding: 50px 15px;
   background-color: #000;
 }
+
+#info {
+    position: fixed;
+    align-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+#info p {
+    display: inline-block;
+    margin:0 auto;
+}

@@ -3743,6 +3743,10 @@
 			position: absolute;
 			top: 0;
 		}
+		#header > .logo img {
+			background-color: transparent;
+			width: 100px;
+		}
 
 			#header > .logo a {
 				font-size: 1.25em;
