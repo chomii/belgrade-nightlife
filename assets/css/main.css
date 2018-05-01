@@ -2899,7 +2899,7 @@
 
 		.wrapper.style2 {
 			background-color: #000;
-			color: #a6a6a6;
+			color: #fff;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
@@ -3106,9 +3106,9 @@
 			}
 
 		.wrapper.style3 {
-			background-color: #000;
+			background-color: #ff62ed;
 			color: #bfbfbf;
-			background-image: url(../../images/back_img.jpg);
+			/* background-image: url(../../images/zvezde.jpg); */
 			background-size: cover;
 			background-attachment: fixed;
 			background-position: center;
@@ -3742,10 +3742,6 @@
 			padding: 0;
 			position: absolute;
 			top: 0;
-		}
-		#header > .logo img {
-			background-color: transparent;
-			width: 100px;
 		}
 
 			#header > .logo a {
