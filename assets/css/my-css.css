@@ -152,6 +152,7 @@
     }
 }
 .box.info {
+    width: 50%;
     float: left;
 }
 .map {
