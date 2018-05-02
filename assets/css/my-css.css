@@ -120,7 +120,7 @@
     
 }
 .head-mail a:hover {
-    color: #8a4680;
+    color: #bfbfbf;
 }
 @media all and (max-width: 768px) {
     .head-mail{
@@ -187,4 +187,14 @@
     background-color: #000;
     box-shadow: inset 0 0 0 2px rgba(255,255,255);
     color: #f2f2f2 !important;
+}
+.wrapper.style2 .button.special.pink-btn {
+    background-color: #ff62ed;
+}
+.wrapper.style2 a {
+    color: #fff;
+    text-decoration: none;
+}
+.wrapper.style2 a:hover {
+    color: #bfbfbf;
 }
