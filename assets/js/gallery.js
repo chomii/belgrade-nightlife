@@ -152,11 +152,14 @@ switch(galleryName) {
     case "Leto":
     galleryImages = [
         "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto1.jpg"
+        "../images/clubs/leto/leto2.jpg",
+        "../images/clubs/leto/leto3.jpg",
+        "../images/clubs/leto/leto4.jpg",
+        "../images/clubs/leto/leto5.jpg",
+        "../images/clubs/leto/leto6.jpg",
+        "../images/clubs/leto/leto7.jpg",
+        "../images/clubs/leto/leto8.jpg",
+        "../images/clubs/leto/leto9.jpg"
     ];
     break;
     case "Hot Mess":
@@ -204,7 +207,15 @@ switch(galleryName) {
         "../images/clubs/sindikat/sindikat6.jpg",
         "../images/clubs/sindikat/sindikat7.jpg"
     ];
-
+    break;
+    case "The Money":
+    galleryImages = [
+        "../images/clubs/the_money/the_money1.jpg",
+        "../images/clubs/the_money/the_money2.jpg",
+        "../images/clubs/the_money/the_money3.jpeg",
+        "../images/clubs/the_money/the_money4.jpg"
+    ];
+    break;
 }
 
 
