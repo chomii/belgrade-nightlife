@@ -79,141 +79,167 @@ console.log(galleryName);
 switch(galleryName) {
     case "Saga Paradiso":
     galleryImages = [
-        "../images/accommodation/saga-paradiso/paradiso1.jpg",
-        "../images/accommodation/saga-paradiso/paradiso2.jpg",
-        "../images/accommodation/saga-paradiso/paradiso3.jpg",
-        "../images/accommodation/saga-paradiso/paradiso4.jpg",
-        "../images/accommodation/saga-paradiso/paradiso5.jpg",
-        "../images/accommodation/saga-paradiso/paradiso6.jpg",
-        "../images/accommodation/saga-paradiso/paradiso7.jpg",
-        "../images/accommodation/saga-paradiso/paradiso8.jpg",
-        "../images/accommodation/saga-paradiso/paradiso9.jpg",
-        "../images/accommodation/saga-paradiso/paradiso10.jpg",
-        "../images/accommodation/saga-paradiso/paradiso11.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_1.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_2.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_3.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_4.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_5.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_6.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_7.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_8.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_9.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_10.jpg",
+        "../images/accommodation/saga-paradiso/villa_saga_paradiso_11.jpg",
     ];
     break;
     case "Shake 'n' Shake":
     galleryImages = [
-        "../images/clubs/shake/shake1.jpg",
-        "../images/clubs/shake/shake2.jpg",
-        "../images/clubs/shake/shake3.jpg",
-        "../images/clubs/shake/shake4.jpg",
-        "../images/clubs/shake/shake5.jpg",
-        "../images/clubs/shake/shake6.jpg",
-        "../images/clubs/shake/shake7.jpg",
-        "../images/clubs/shake/shake8.jpg",
-        "../images/clubs/shake/shake9.jpg",
-        "../images/clubs/shake/shake10.jpg",
-        "../images/clubs/shake/shake11.jpg",
+        "../images/clubs/shake/shake_night_club_1.jpg",
+        "../images/clubs/shake/shake_night_club_2.jpg",
+        "../images/clubs/shake/shake_night_club_3.jpg",
+        "../images/clubs/shake/shake_night_club_4.jpg",
+        "../images/clubs/shake/shake_night_club_5.jpg",
+        "../images/clubs/shake/shake_night_club_6.jpg",
+        "../images/clubs/shake/shake_night_club_7.jpg",
+        "../images/clubs/shake/shake_night_club_8.jpg",
+        "../images/clubs/shake/shake_night_club_9.jpg",
+        "../images/clubs/shake/shake_night_club_10.jpg",
+        "../images/clubs/shake/shake_night_club_11.jpg",
     ];
     break;
 
     case "Lasta":
     galleryImages = [
-        "../images/clubs/lasta/lasta1.jpg",
-        "../images/clubs/lasta/lasta2.jpg",
-        "../images/clubs/lasta/lasta3.jpg",
-        "../images/clubs/lasta/lasta4.jpg",
-        "../images/clubs/lasta/lasta5.jpg",
-        "../images/clubs/lasta/lasta6.jpg",
-        "../images/clubs/lasta/lasta7.jpg",
-        "../images/clubs/lasta/lasta8.jpg",
-        "../images/clubs/lasta/lasta9.jpg",
-        "../images/clubs/lasta/lasta10.jpg",
-        "../images/clubs/lasta/lasta11.jpg",
-        "../images/clubs/lasta/lasta12.jpg",
-        "../images/clubs/lasta/lasta13.jpg",
-        "../images/clubs/lasta/lasta14.jpg",
-        "../images/clubs/lasta/lasta15.jpg",
-        "../images/clubs/lasta/lasta16.jpg",
-        "../images/clubs/lasta/lasta17.jpg",
-        "../images/clubs/lasta/lasta18.jpg",
-        "../images/clubs/lasta/lasta19.jpg",
-        "../images/clubs/lasta/lasta20.jpg"
+        "../images/clubs/lasta/lasta_night_club_1.jpg",
+        "../images/clubs/lasta/lasta_night_club_2.jpg",
+        "../images/clubs/lasta/lasta_night_club_3.jpg",
+        "../images/clubs/lasta/lasta_night_club_4.jpg",
+        "../images/clubs/lasta/lasta_night_club_5.jpg",
+        "../images/clubs/lasta/lasta_night_club_6.jpg",
+        "../images/clubs/lasta/lasta_night_club_7.jpg",
+        "../images/clubs/lasta/lasta_night_club_8.jpg",
+        "../images/clubs/lasta/lasta_night_club_9.jpg",
+        "../images/clubs/lasta/lasta_night_club_10.jpg",
+        "../images/clubs/lasta/lasta_night_club_11.jpg",
+        "../images/clubs/lasta/lasta_night_club_12.jpg",
+        "../images/clubs/lasta/lasta_night_club_13.jpg",
+        "../images/clubs/lasta/lasta_night_club_14.jpg",
+        "../images/clubs/lasta/lasta_night_club_15.jpg",
+        "../images/clubs/lasta/lasta_night_club_16.jpg",
+        "../images/clubs/lasta/lasta_night_club_17.jpg",
+        "../images/clubs/lasta/lasta_night_club_18.jpg",
+        "../images/clubs/lasta/lasta_night_club_19.jpg",
+        "../images/clubs/lasta/lasta_night_club_20.jpg"
     ];
     break;
     case "Freestyler":
     galleryImages = [
-        "../images/clubs/free/free1.jpg",
-        "../images/clubs/free/free2.jpg",
-        "../images/clubs/free/free3.jpg",
-        "../images/clubs/free/free4.jpg",
-        "../images/clubs/free/free5.jpg",
-        "../images/clubs/free/free6.jpg",
-        "../images/clubs/free/free7.jpg",
-        "../images/clubs/free/free8.jpg",
-        "../images/clubs/free/free9.jpg",
-        "../images/clubs/free/free10.jpg",
-        "../images/clubs/free/free11.jpg",
-        "../images/clubs/free/free12.jpg",
-        "../images/clubs/free/free13.jpg"
+        "../images/clubs/free/free_night_club_1.jpg",
+        "../images/clubs/free/free_night_club_2.jpg",
+        "../images/clubs/free/free_night_club_3.jpg",
+        "../images/clubs/free/free_night_club_4.jpg",
+        "../images/clubs/free/free_night_club_5.jpg",
+        "../images/clubs/free/free_night_club_6.jpg",
+        "../images/clubs/free/free_night_club_7.jpg",
+        "../images/clubs/free/free_night_club_8.jpg",
+        "../images/clubs/free/free_night_club_9.jpg",
+        "../images/clubs/free/free_night_club_10.jpg",
+        "../images/clubs/free/free_night_club_11.jpg",
+        "../images/clubs/free/free_night_club_12.jpg",
+        "../images/clubs/free/free_night_club_13.jpg"
     ];
     break;
     case "Leto":
     galleryImages = [
-        "../images/clubs/leto/leto1.jpg",
-        "../images/clubs/leto/leto2.jpg",
-        "../images/clubs/leto/leto3.jpg",
-        "../images/clubs/leto/leto4.jpg",
-        "../images/clubs/leto/leto5.jpg",
-        "../images/clubs/leto/leto6.jpg",
-        "../images/clubs/leto/leto7.jpg",
-        "../images/clubs/leto/leto8.jpg",
-        "../images/clubs/leto/leto9.jpg"
+        "../images/clubs/leto/leto_night_club_1.jpg",
+        "../images/clubs/leto/leto_night_club_2.jpg",
+        "../images/clubs/leto/leto_night_club_3.jpg",
+        "../images/clubs/leto/leto_night_club_4.jpg",
+        "../images/clubs/leto/leto_night_club_5.jpg",
+        "../images/clubs/leto/leto_night_club_6.jpg",
+        "../images/clubs/leto/leto_night_club_7.jpg",
+        "../images/clubs/leto/leto_night_club_8.jpg",
+        "../images/clubs/leto/leto_night_club_9.jpg"
     ];
     break;
     case "Hot Mess":
     galleryImages = [
-        "../images/clubs/hot_mess/hot_mess1.jpg",
-        "../images/clubs/hot_mess/hot_mess2.jpg",
-        "../images/clubs/hot_mess/hot_mess3.jpg",
-        "../images/clubs/hot_mess/hot_mess4.jpg",
-        "../images/clubs/hot_mess/hot_mess5.jpg"
+        "../images/clubs/hot_mess/hot_mess_night_club_1.jpg",
+        "../images/clubs/hot_mess/hot_mess_night_club_2.jpg",
+        "../images/clubs/hot_mess/hot_mess_night_club_3.jpg",
+        "../images/clubs/hot_mess/hot_mess_night_club_4.jpg",
+        "../images/clubs/hot_mess/hot_mess_night_club_5.jpg"
     ];
     break;
     case "Port":
     galleryImages = [
-        "../images/clubs/port/port1.jpg",
-        "../images/clubs/port/port2.jpg",
-        "../images/clubs/port/port3.jpg",
-        "../images/clubs/port/port4.jpg",
-        "../images/clubs/port/port5.jpg",
-        "../images/clubs/port/port6.jpg",
-        "../images/clubs/port/port7.jpg",
-        "../images/clubs/port/port8.jpg",
-        "../images/clubs/port/port9.jpg",
-        "../images/clubs/port/port10.jpg"
+        "../images/clubs/port/port_night_club_1.jpg",
+        "../images/clubs/port/port_night_club_2.jpg",
+        "../images/clubs/port/port_night_club_3.jpg",
+        "../images/clubs/port/port_night_club_4.jpg",
+        "../images/clubs/port/port_night_club_5.jpg",
+        "../images/clubs/port/port_night_club_6.jpg",
+        "../images/clubs/port/port_night_club_7.jpg",
+        "../images/clubs/port/port_night_club_8.jpg",
+        "../images/clubs/port/port_night_club_9.jpg",
+        "../images/clubs/port/port_night_club_10.jpg"
     ];
     break;
     case "River":
     galleryImages = [
-        "../images/clubs/river/river1.jpg",
-        "../images/clubs/river/river2.jpg",
-        "../images/clubs/river/river3.jpg",
-        "../images/clubs/river/river4.jpg",
-        "../images/clubs/river/river5.jpg",
-        "../images/clubs/river/river6.jpg",
-        "../images/clubs/river/river7.jpg",
-        "../images/clubs/river/river8.jpg"
+        "../images/clubs/river/river_night_club_1.jpg",
+        "../images/clubs/river/river_night_club_2.jpg",
+        "../images/clubs/river/river_night_club_3.jpg",
+        "../images/clubs/river/river_night_club_4.jpg",
+        "../images/clubs/river/river_night_club_5.jpg",
+        "../images/clubs/river/river_night_club_6.jpg",
+        "../images/clubs/river/river_night_club_7.jpg",
+        "../images/clubs/river/river_night_club_8.jpg"
     ];
     break;
     case "Sindikat":
     galleryImages = [
-        "../images/clubs/sindikat/sindikat1.jpg",
-        "../images/clubs/sindikat/sindikat2.jpg",
-        "../images/clubs/sindikat/sindikat3.jpg",
-        "../images/clubs/sindikat/sindikat4.jpg",
-        "../images/clubs/sindikat/sindikat5.jpg",
-        "../images/clubs/sindikat/sindikat6.jpg",
-        "../images/clubs/sindikat/sindikat7.jpg"
+        "../images/clubs/sindikat/sindikat_night_club_1.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_2.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_3.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_4.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_5.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_6.jpg",
+        "../images/clubs/sindikat/sindikat_night_club_7.jpg"
     ];
     break;
     case "The Money":
     galleryImages = [
-        "../images/clubs/the_money/the_money1.jpg",
-        "../images/clubs/the_money/the_money2.jpg",
-        "../images/clubs/the_money/the_money3.jpeg",
-        "../images/clubs/the_money/the_money4.jpg"
+        "../images/clubs/the_money/the_money_night_club_1.jpg",
+        "../images/clubs/the_money/the_money_night_club_2.jpg",
+        "../images/clubs/the_money/the_money_night_club_3.jpeg",
+        "../images/clubs/the_money/the_money_night_club_4.jpg"
+    ];
+    break;
+    case "Bridge":
+    galleryImages = [
+        "../images/clubs/bridge/bridge_night_club_1.jpeg",
+        "../images/clubs/bridge/bridge_night_club_2.jpg",
+        "../images/clubs/bridge/bridge_night_club_3.jpg",
+        "../images/clubs/bridge/bridge_night_club_4.jpg",
+        "../images/clubs/bridge/bridge_night_club_5.jpg",
+        "../images/clubs/bridge/bridge_night_club_6.jpg",
+        "../images/clubs/bridge/bridge_night_club_7.jpg",
+        "../images/clubs/bridge/bridge_night_club_8.jpeg"
+    ];
+    break;
+    case "Tag":
+    galleryImages = [
+        "../images/clubs/tag/tag_night_club_1.jpeg",
+        "../images/clubs/tag/tag_night_club_2.jpeg",
+        "../images/clubs/tag/tag_night_club_3.jpeg",
+        "../images/clubs/tag/tag_night_club_4.jpg",
+        "../images/clubs/tag/tag_night_club_5.jpeg",
+        "../images/clubs/tag/tag_night_club_6.jpeg",
+        "../images/clubs/tag/tag_night_club_7.jpg",
+        "../images/clubs/tag/tag_night_club_8.jpeg",
+        "../images/clubs/tag/tag_night_club_9.jpg",
+        "../images/clubs/tag/tag_night_club_10.jpg"
     ];
     break;
 }
