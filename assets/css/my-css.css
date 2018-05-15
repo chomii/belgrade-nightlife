@@ -155,10 +155,10 @@
         width: 100%;
     }
 }
-.box.info {
+/* .box.info {
     width: 50%;
     float: left;
-}
+} */
 .map {
     overflow:hidden;
     padding-bottom:56.25%;
@@ -170,7 +170,6 @@
     top:0;
     height:100%;
     width:100%;
-    margin-left: 50px;
     position:absolute;
 }
 .inner:after {

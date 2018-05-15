@@ -1,40 +1,55 @@
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
-}
-$name = $_POST['name'];
-$visitor_email = $_POST['email'];
-$subject = $_POST['subject'];
-$message = $_POST['message'];
+
+$formName = $_POST['name'];
+$formEmail = $_POST['email'];
+$formMessage = $_POST['message'];
 
 //Validate first
-if(empty($name)||empty($visitor_email)) 
-{
-    echo "Name and email are mandatory!";
-    exit;
+if(empty($formName)) {
+    $message ="Name is mandatory!";
+    $success = false;
+}
+else if(empty($formEmail)) {
+  $message ="Email is mandatory!";
+  $success = false;  
+}
+else if(IsInjected($formEmail)) {
+    $message = "Bad email value!";
+    $success = false;
+}
+else{
+  $message = "Thanks for the submission!";
+  $success = true;
 }
 
-if(IsInjected($visitor_email))
-{
-    echo "Bad email value!";
-    exit;
+$response = array(
+  'success' => $success,
+  'message' => $message
+);
+
+if($success) {
+  $email_from = 'belgrade-nightlife.com';//<== update the email address
+  $email_subject = "Email sa sajta";
+  $email_body = "Od: $formName.\n".
+                "Email: $formEmail\n".
+                "Poruka:\n $formMessage";
+      
+  $recipients = array(
+    "office@belgrade-nightlife.com",
+    "milanche_show@hotmail.com",
+    "milicastanojevic261@gmail.com"
+  );
+
+  $email_to = implode(',', $recipients); // your email address
+
+  //$to = "office@belgrade-nightlife.com";//<== update the email address
+  $headers = "From: $email_from \r\n";
+  $headers = "Reply-To: $formEmail \r\n";
+  //Send the email!
+  mail($email_to,$email_subject,$email_body,$headers);
 }
 
-$email_from = 'belgrade-nightlife.com';//<== update the email address
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n".
-    "Here is the message:\n $message".
-    
-$to = "info@belgrade-nightlife.com";//<== update the email address
-$headers = "From: $email_from \r\n";
-$headers .= "Reply-To: $visitor_email \r\n";
-//Send the email!
-mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank-you.html');
-
+echo json_encode($response);
 
 // Function to validate against any email injection attempts
 function IsInjected($str)
